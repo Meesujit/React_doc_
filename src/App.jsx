@@ -2,6 +2,7 @@
 import './App.css'
 
 import FetchComponent from './components/Fetch/FetchComponent'
+import PromiseComponent from './components/Promises/PromiseComponent'
 
 // import AxiosApiComponent from './components/Axios/AxiosApiComponent/AxiosApiComponent'
 
@@ -47,7 +48,12 @@ function App() {
       {/* <AxiosGetComponent /> */}
       {/* <AxiosApiComponent /> */}
       
-      <FetchComponent />
+      {/* <FetchComponent /> */}
+
+
+      {/* -------- Promises ---- */}
+
+      <PromiseComponent />
 
       </>
   )
