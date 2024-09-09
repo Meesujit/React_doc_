@@ -1,4 +1,3 @@
-
 import './App.css'
 
 import FetchComponent from './components/Fetch/FetchComponent'
@@ -25,7 +24,7 @@ import PromiseComponent from './components/Promises/PromiseComponent'
 // import UseImperitiveHandlel from './components/UseImperitiveHandle/UseImperitiveHandlel'
 
 function App() {
-  
+
 
   return (
     <>
