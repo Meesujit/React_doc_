@@ -1,7 +1,8 @@
 import './App.css'
+import Ecommers from './components/ReduxComponent/Ecommers'
 
-import FetchComponent from './components/Fetch/FetchComponent'
-import PromiseComponent from './components/Promises/PromiseComponent'
+// import FetchComponent from './components/Fetch/FetchComponent'
+// import PromiseComponent from './components/Promises/PromiseComponent'
 
 // import AxiosApiComponent from './components/Axios/AxiosApiComponent/AxiosApiComponent'
 
@@ -52,8 +53,10 @@ function App() {
 
       {/* -------- Promises ---- */}
 
-      <PromiseComponent />
+      {/* <PromiseComponent /> */}
 
+
+        <Ecommers />
       </>
   )
 }
