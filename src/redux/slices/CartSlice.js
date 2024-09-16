@@ -20,3 +20,4 @@ export const getItemSelector = createSelector(
 export const {addItem} = cartSlice.actions
 
 export default cartSlice.reducer;
+

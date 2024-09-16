@@ -1,5 +1,6 @@
 import './App.css'
-import Ecommers from './components/ReduxComponent/Ecommers'
+// import Ecommers from './components/ReduxComponent/Ecommers'
+import ReduxFetchApi from './components/ReduxFetchApi/ReduxFetchApi'
 
 // import FetchComponent from './components/Fetch/FetchComponent'
 // import PromiseComponent from './components/Promises/PromiseComponent'
@@ -56,7 +57,11 @@ function App() {
       {/* <PromiseComponent /> */}
 
 
-        <Ecommers />
+
+
+        {/* Redux Component  */}
+          {/* <Ecommers /> */}
+          <ReduxFetchApi />
       </>
   )
 }
